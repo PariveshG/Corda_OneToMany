@@ -1,0 +1,14 @@
+**Steps To Reproduce in mac**
+
+1. Deploy Nodes: `./gradlew clean deployNodes`;
+2. Launch Nodes: `build/nodes/runNodes`;
+
+**Steps To Reproduce in windows**
+
+1. Deploy Nodes: `gradlew clean deployNodes`;
+2. Launch Nodes: `build/nodes/runNodes.bat`;
+
+Run this command to execute the flow from corda Terminal>>-
+start TokenIssueFlow owner: PartyA, amount : 50
+
+For more details follow url -https://github.com/corda/corda/issues/4193
